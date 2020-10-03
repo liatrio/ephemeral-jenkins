@@ -13,6 +13,8 @@ module "product-a" {
   plugins = [
     "job-dsl:1.77"
   ]
+
+  pod_template = "${path.module}/pod_templates/product-a.tpl"
 }
 
 module "product-b" {
@@ -31,4 +33,6 @@ module "product-b" {
     "job-dsl:1.77",
     "blueocean:1.24.0"
   ]
+
+  pod_template = "${path.module}/pod_templates/product-b.tpl"
 }

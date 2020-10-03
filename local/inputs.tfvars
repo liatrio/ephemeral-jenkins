@@ -1,8 +1,8 @@
 ### Toolchain ########
-downscaler_enabled      = true
+downscaler_enabled      = false
 harbor_enabled          = false
 jaeger_enabled          = false
-kube-janitor_enabled    = true
+kube-janitor_enabled    = false
 ######################
 
 downscaler_values       = "./toolchain/downscaler.tpl"
