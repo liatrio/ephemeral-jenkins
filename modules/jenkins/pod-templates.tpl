@@ -3,7 +3,6 @@ jenkins:
     - kubernetes:
         name: "kubernetes"
         serverUrl: "https://kubernetes.default"
-        namespace: "${namespace}"
         jenkinsUrl: "http://jenkins:8080"
         jenkinsTunnel: "jenkins-agent:50000"
         connectTimeout: 0

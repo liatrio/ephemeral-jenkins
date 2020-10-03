@@ -14,3 +14,5 @@ variable "plugins" {
     "job-dsl:1.77"
   ]
 }
+
+variable "pod_template" {}

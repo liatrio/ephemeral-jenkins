@@ -282,8 +282,8 @@ resource "kubernetes_config_map" "jcasc_pod_templates_configmap" {
     }
   }
   data = {
-    "pod-templates.yaml" = templatefile("${path.module}/pod-templates.tpl", {
-      namespace = module.jenkins_namespace.name
-    })
+  "pod-templates.yaml" = templatefile("${var.pod_template}", {
+    namespace = module.jenkins_namespace.name
+  })
   }
 }
