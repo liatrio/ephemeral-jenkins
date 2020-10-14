@@ -5,7 +5,11 @@ This repository contains the Terraform automation for creating multiple ephemera
 The tools and versions we are using during this setup are:
 
 Terraform - v0.13.3
+
 Terragrunt - v0.23.29
+
 K8s client - 1.16.6
+
 K8s server - 1.16.6
+
 Helm - v3.2.4
